@@ -11,6 +11,7 @@ header{
 
 header p{
   margin-right: 80px;
+  font-family: sans-serif;
 }
  
 .inicio{
@@ -23,7 +24,7 @@ header p{
    
 }
 
-#logo{
+#logoI{
     margin: 40px 70px;
     width: 100px;
     height: auto;
@@ -55,7 +56,7 @@ button {
 }
 
 .segundaParte{
-    /*cambio*/padding: 60px 0;
+    padding: 60px 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
    
@@ -67,13 +68,13 @@ button {
 }
 
 h2{
-    /*cambio*/font-size: 40px;
+    font-size: 40px;
 }
 
 .imgs {
     margin: 0 20px;
     max-width: 300px;
-    /*cambio*/padding: 20px;
+    padding: 20px;
 }
 
 
@@ -200,28 +201,30 @@ span {
   font-size: 60px;
 }
 
-.logosClientes {
+.logoClientes {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: auto;
-    
+  background-color: #ebeaea;
+  padding: 40px 0;
 }
 
 .imagenes {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 200%;
-  max-width: 1700px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.logo {
-  
-  max-height: 20px;
-  max-width: 20px;
+#logo {
+  margin: 0 10px;
+  max-height: 100px;
+  width: 20%;
+  height: auto;
 }
 
 .quintaParte{
@@ -394,6 +397,7 @@ footer{
 .final{
   align-items: center;
   margin: 10px;
+  display: flex;
 }
 .copy {
   margin: 0;
@@ -407,6 +411,7 @@ footer{
   display: flex;
   justify-content: flex-end;
   border-radius: 50%;
+  
 }
 
 .icono{
@@ -418,9 +423,390 @@ footer{
   border-color: rgb(2, 6, 31);
   width: 40%;
   height: auto;
+  
 }
 
 footer img{
   width: 30px;
   height: auto;
+}
+
+@media screen and (max-width: 1279px){
+  .logosClientes{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dfdcdc;
+  }
+
+  .logosClientes img{
+    max-width:-10px;
+    height: auto;
+  }
+
+  .word{
+    font-family:sans-serif;
+    font-size:  48px;
+  }
+
+  #logo {
+    margin: 20px;
+    margin-right: 10px;
+    width: 20%;
+    height: auto;
+   }
+}
+
+@media screen and (max-width: 920px) {
+  .inicio {
+      padding: 50px;
+  }
+
+  #logoI{
+    width: 90px;
+    height: auto;
+    margin: 6px 70px;
+  }
+
+  .word{
+    font-size: 35px;
+  }
+
+  
+  .h2{
+    font-size: 20px;
+}
+  .take {
+      font-size: 40px;
+  }
+
+  .container1 {
+      display: flex;
+      margin: 20px;
+      justify-content: space-between;
+  }
+
+  .container1 div, .container1 img {
+      width: 55%;
+      height: 30%;
+      margin: 10px 0;
+  }
+
+  .feature-2 {
+      max-width: 100%;
+      margin: 20px 0;
+  }
+
+  .container2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contenedorBlanco, .containerColor {
+      width: 45%;
+      margin: 20px 0;
+  }
+
+  .logosClientes {
+      display: flex;
+      justify-content: space-between;
+      padding: 1vh;
+      background-color: #dfdcdc;
+  }
+
+   #logo {
+      margin: 5px;
+      margin-right: 10px;
+  }
+   
+  .safe{
+    font-size: 25px;
+  }
+
+  .contact-info{
+    font-size: 13px;
+  }
+  
+  .titulo3{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header p {
+      margin-right: 20px;
+  }
+
+  .word{
+    font-size: 20px;
+  }
+
+  .Smartest{
+    font-size: 25px;
+  }
+
+  .Check{
+    font-size: 25px;
+  }
+
+  #logo{
+    width: 15%;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+
+  header p {
+      margin: 10px 0;
+  }
+
+  #logoI{
+    margin: 10px ;
+  }
+
+  .word{
+    font-size: 15px;
+  }
+  .list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .text1{
+  text-align: start;
+  
+ }
+
+  .img {
+      margin: 20px 0;
+      max-width: 100%;
+  }
+
+  .container1 {
+      flex-direction: column;
+      align-items:flex-start;
+      width: 100%;
+      padding: 0 -10px;
+  }
+
+  .container1 div, .container1 img {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .take{
+    font-size: 18px;
+  }
+
+  .feature-2 {
+      width: 100%;
+      max-width: 100%;
+      margin: 10px 0;
+  }
+
+  .terceraParte{
+      padding: 20px;
+  }
+
+  .container2 {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+
+  .contenedorBlanco, .containerColor {
+      width: 80%;
+      margin: 10px 0;
+      padding: 10 px 20px;
+  }
+
+  .logoClientes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      background-color: #dfdcdc;
+      width: 98%;
+  }
+
+  .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .texto{
+      font-family:sans-serif;
+      font-size:  20px;
+  }
+
+  .logo {
+      margin: 5px;
+      max-height: 50px;
+      width: auto;
+  }
+ 
+ .formulario{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 0;
+ }
+ .formulario1{
+  max-width: 70%;
+  padding: 0;
+  margin: 0 50px;
+  }
+
+  .contact-info{
+    margin: 1px 50px;
+  }
+
+  .form-input{
+    width: 80%;
+  }
+  .submit-button {
+    padding: 5px 20px;
+  }
+  textarea.form-input {
+    height: 20%;
+  }
+  .final {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+  }
+
+  .copy, .social {
+      padding: 10px;
+      width: 50%;
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+  .inicio{
+    padding: 5px 0;
+  }
+
+  header p {
+      margin: 10px 0;
+  }
+  .text_fondo{
+    max-width: 100%;
+  }
+
+  .titulo1 {
+      max-width: 100%;
+      padding: 0 10px;
+  }
+  .button{
+    padding: 5px 40px;;
+    background-color: #6fe0aa;
+  }
+
+  .list {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+ 
+  .Smartest{
+    font-size: 20px;
+  }
+
+  .img {
+      margin: 10px 0;
+      max-width: 100%;
+  }
+ 
+  .container1 {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+
+  .container1 div, .container1 img {
+      width: 90%;
+      margin: 10px 2px;
+  }
+
+ 
+  .feature-2 {
+      width: 100%;
+      max-width: 100%;
+      margin: 10px 0;
+  }
+
+  .terceraParte {
+      padding: 20px;
+      background: linear-gradient(190deg, #09e27d6b 50%, #08d173 50%);
+  }
+
+  .container2 {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      padding: 0 10px;
+  }
+
+  .contenedorBlanco, .containerColor {
+      width: 85%;
+      margin: 10px 0;
+      padding: 5px 10px;
+  }
+
+  .logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-color: #dfdcdc;
+      width: 100%;
+  }
+
+  .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .logo {
+      margin: 5px;
+      max-height: 30px;
+      width: auto;
+  }
+
+  .final {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+  }
+  .contact-info{
+    font-size: 12px;
+  }
+  .form-input {
+    padding: 5px;
+  }
+  .copy, .social {
+      padding: 5px;
+      width: 50%;
+  }
+
+  .social img {
+      width: 30px;
+      height: 30px;
+  }
 }
