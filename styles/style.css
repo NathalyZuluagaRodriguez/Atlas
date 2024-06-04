@@ -571,7 +571,7 @@ footer img{
   }
 
   .word{
-    font-size: 15px;
+    font-size: 10px;
   }
   .list{
     flex-direction: column;
@@ -612,7 +612,9 @@ footer img{
 
   .terceraParte{
       padding: 20px;
+      background: linear-gradient(190deg, #09e27d6b 50%, #08d173 50%);
   }
+  
 
   .container2 {
       flex-direction: column;
